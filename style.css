@@ -1,0 +1,45 @@
+table,
+        td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 12px;
+            font-size: 12px;
+        }
+
+        .already-taken{
+           background-color: skyblue;
+        }
+        .table-head {
+            font-weight: bold;
+            background-color: lightgray;
+          
+        }
+        .table.body {
+               background-color: blue;
+        }
+        body {
+            
+            font-family: Verdana;
+            font-size: 12px;
+            
+            
+        }
+
+        table tr:hover{
+            background-color: rgb(194, 188, 188);
+        }
+        .sem {
+            font-weight: bold;
+            background-color: rgb(49, 147, 223);
+            color: whitesmoke
+        }
+        .Not-yet-taken {
+            background-color: white;
+        }
+        .Currently-taken {
+            background-color: yellow;
+        }
+        .Notice {
+            font-size: bold;
+        }
